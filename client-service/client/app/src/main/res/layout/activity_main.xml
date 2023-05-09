@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="请输入数字"
+        android:maxLength="8"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_shape"
+        android:digits="0123456789-"
+        android:id="@+id/Edittext1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="请输入数字"
+        android:maxLength="8"
+        android:layout_marginTop="10dp"
+        android:digits="0123456789-"
+        android:background="@drawable/edittext_shape"
+        android:id="@+id/Edittext2"/>
+
+    <Button
+        android:id="@+id/Btn_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:text="加法"
+        />
+
+    <Button
+        android:id="@+id/Btn_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:text="减法"
+        />
+    <Button
+        android:id="@+id/Btn_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:text="乘法"
+        />
+    <Button
+        android:id="@+id/Btn_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:text="除法"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="19sp"
+        android:background="@drawable/edittext_shape"
+        android:hint="结果为"
+        android:id="@+id/Textview1">
+    </TextView>
+
+
+</LinearLayout>
+
+
+
+
+
+

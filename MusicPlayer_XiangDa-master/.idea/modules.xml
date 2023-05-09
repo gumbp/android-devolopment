@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicPlayer_XiangDa-master.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicPlayer_XiangDa-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicPlayer_XiangDa-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicPlayer_XiangDa-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lyricview/MusicPlayer_XiangDa-master.lyricview.iml" filepath="$PROJECT_DIR$/.idea/modules/lyricview/MusicPlayer_XiangDa-master.lyricview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/verticaladvertisementlibrary/MusicPlayer_XiangDa-master.verticaladvertisementlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/verticaladvertisementlibrary/MusicPlayer_XiangDa-master.verticaladvertisementlibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.afollestad.material-dialogs:core:0.9.6.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/f2352bb11e4f0fcd5cc65a320bd89682/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/f2352bb11e4f0fcd5cc65a320bd89682/res" />
+      <root url="file://G:/gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/5a054b377b536d386d5e996a9e6206b9/res" />
+      <root url="jar://G:/gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/5a054b377b536d386d5e996a9e6206b9/jars/classes.jar!/" />
+      <root url="file://G:/gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/5a054b377b536d386d5e996a9e6206b9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad.material-dialogs/core/0.9.6.0/138d1054166753aa2b5306e5ae484d03e9974c81/core-0.9.6.0-sources.jar!/" />
+      <root url="jar://G:/gradle/caches/modules-2/files-2.1/com.afollestad.material-dialogs/core/0.9.6.0/138d1054166753aa2b5306e5ae484d03e9974c81/core-0.9.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

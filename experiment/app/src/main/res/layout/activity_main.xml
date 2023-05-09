@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="15dp"
+    android:background="@drawable/background"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/editextbackground"
+            android:layout_marginTop="8dp"
+            android:hint="请输入学号"></EditText>
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/editextbackground"
+            android:layout_marginTop="8dp"
+            android:hint="请输入姓名"></EditText>
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/editextbackground"
+            android:layout_marginTop="8dp"
+            android:hint="请输入年龄"></EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="Click"
+            android:background="@drawable/buttonui"
+            android:text="存入PRE"></Button>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="Click"
+            android:background="@drawable/buttonui"
+            android:text="存入数据库"></Button>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="Click"
+            android:background="@drawable/buttonui"
+            android:text="存入SD卡"></Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="Click"
+            android:text="从PRE读取"
+            android:background="@drawable/buttonui"></Button>
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="Click"
+            android:text="数据库读取"
+            android:background="@drawable/buttonui"></Button>
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="Click"
+            android:text="从SD卡读取"
+            android:background="@drawable/buttonui"></Button>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+

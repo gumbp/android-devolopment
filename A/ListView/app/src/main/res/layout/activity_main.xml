@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/TOP"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/purple_500">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="ListView(B18060607)"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+        <ImageView
+            android:id="@+id/btn_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_add"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@id/title"
+            android:clickable="true"
+            android:onClick="onClick" />
+    </RelativeLayout>
+
+   <!-- <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#D5D4D6"
+            android:stretchColumns="1">
+            <TableRow>
+                <EditText
+                    android:id="@+id/classId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="点击输入课程名称"
+                    />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/btn_add2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_add"
+                    android:clickable="true"
+                    android:onClick="onClick" />
+
+            </TableRow>
+       </TableLayout>-->
+<!-- <LinearLayout
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:orientation="horizontal">
+    <EditText
+          android:id="@+id/number"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="课程编号"
+          />
+      <EditText
+          android:id="@+id/credit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="学分"
+          />
+      <EditText
+          android:id="@+id/teacher"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="授课老师"
+          />&ndash;&gt;
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <EditText
+                android:id="@+id/Time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="上课时间"
+                />
+            <EditText
+                android:id="@+id/room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="教室" />
+
+    </LinearLayout>-->
+
+      <!--  <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="清除所有记录"
+            />
+       <Button
+            android:id="@+id/btn_delete2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/btn_delete"
+            android:text="删除第一项" />-->
+    <TextView
+        android:id="@+id/txt_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black" />
+    <ListView
+        android:id="@+id/list_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

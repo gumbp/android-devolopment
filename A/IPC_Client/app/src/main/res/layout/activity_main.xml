@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbHorizontal="@drawable/btn_shape"
+    android:scrollbarThumbVertical="@drawable/btn_shape">
+
+    <Space
+        android:id="@+id/A"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Space
+        android:id="@+id/B"
+        android:layout_below="@id/C"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <Space
+        android:id="@+id/D"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit1"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/A"
+        android:backgroundTint="@color/white"
+        android:gravity="left"
+        android:text="两位数的加减乘除运算"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/D"
+        android:backgroundTint="#E9B5F6"
+        android:text="加法" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/D"
+        android:layout_toRightOf="@+id/button1"
+        android:backgroundTint="@color/purple_200"
+        android:text="减法" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/D"
+        android:layout_toRightOf="@+id/button2"
+        android:backgroundTint="@color/purple_500"
+        android:text="乘法" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/D"
+        android:layout_toRightOf="@+id/button3"
+        android:backgroundTint="@color/purple_700"
+        android:text="除法" />
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="55dp"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B"
+        android:layout_toLeftOf="@id/button5"
+        android:gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="55dp"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B"
+        android:layout_toRightOf="@+id/edit2"
+        android:textSize="30dp"
+        android:text="=" />
+
+    <EditText
+        android:id="@+id/jg"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:layout_above="@+id/button3"
+        android:layout_below="@id/B"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="23dp"
+        android:layout_toLeftOf="@+id/edit2"
+        android:background="@drawable/btn_shape" />
+
+
+
+</RelativeLayout>
